@@ -1,0 +1,54 @@
+.Info {
+	position: relative;
+}
+
+.Info-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.Info-seperator {
+	height: 1.8rem;
+	text-align: center;
+	vertical-align: middle;
+	border-bottom: 4px dotted gray;
+}
+
+.clip-circle {
+	background-color: #dedede;
+	width: 200px;
+	height: 60px;
+	position: absolute;
+}
+
+.clip-circle-left {
+    clip-path: circle(25px at left);
+    left: -32px;
+}
+
+.clip-circle-right {
+	clip-path: circle(25px at right);
+    transform: rotate(360deg);
+    right: -32px;
+}
+
+.Info-emoji {
+	width: 1.5rem;
+	height: 1.5rem;
+}
+
+.Info-emoji img {
+	width: 100%;
+	height: 100%;
+}
+
+.Info-text {
+	color: gold;
+	font-size: 1.2rem;
+}
+
+.Info-seperator {
+	width: 100%;
+	flex-wrap: wrap;
+}
